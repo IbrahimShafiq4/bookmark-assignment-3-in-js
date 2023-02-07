@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body >
+    <div class="container position-absolute top-50 translate-middle start-50">
+        <h1>Bookmarker</h1>
+        <div class="content px-2 mt-4 text-center py-5 px-2">
+            <div class="top-content mb-4 py-5 px-5">
+                <h3>Bookmark your favorite sites</h3>
+                <div class="form mt-3">
+                    <label for="sn" class="mb-2 fs-4 fw-bold">Site Name</label>
+                    <input type="text" id="sn" placeholder="Bookmark Name..." class=" mb-5 form-control p-2">
+                    <p class="w-100 bg-danger py-3 text-white rounded-2" id="siteNameInvalid">Name is required</p>
+                    <label for="su" class="mb-2 fs-4 fw-bold">Site URL</label>
+                    <input type="text" id="su" placeholder="write the Name of the website and it will be added to url link automatically..." class=" mb-5 form-control p-2">
+                    <p class="w-100 bg-danger py-3 text-white rounded-2" id="siteURLInvalid">Url Field is required</p>
+
+                    <button class="btn btn-danger" id="submit" onclick="addElement()">Submit</button>
+                </div>
+            </div>
+            <div class="bottom-content text-center px-3 py-4">
+                <table>
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

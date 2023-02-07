@@ -1,0 +1,21 @@
+.top-content {
+    background-color: #eee;
+}
+
+.bottom-content {
+    background-image: linear-gradient(to bottom, #eee 100%, #fff 0%);
+}
+
+.content {
+    border-top: 1px solid;
+    border-bottom: 1px solid 
+}
+
+td {
+    width: 30%;
+}
+
+#siteNameInvalid,
+#siteURLInvalid {
+    display: none;
+}
